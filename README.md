@@ -38,3 +38,5 @@ This project is part of [Simplilearn - Automation Testing Masters Program](https
 Postman collection is located under postman folder. The json file can be imported in the postman where the GET/POST requests can be executed.
 
 ### JMeter
+
+.jxm is located under jmeter folder. File contains a small thread group similar to postman collection with the same response/json assertions.
