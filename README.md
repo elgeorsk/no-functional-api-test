@@ -12,10 +12,10 @@ The following requirements should be met:
 * [x] Write automation script for POST Request using Rest Assured.
 * [x] Generate console logs using Log4j.
 * [x] Validate the Response.
-* [] Check the above web services performance using JMeter.
-* [] Do Load Testing.
-* [] Do Stress Testing..
-* [] Do Spike Testing.
+* [ ] Check the above web services performance using JMeter.
+* [ ] Do Load Testing.
+* [ ] Do Stress Testing..
+* [ ] Do Spike Testing.
 
 ## Introduction
 
@@ -33,44 +33,8 @@ This project is part of [Simplilearn - Automation Testing Masters Program](https
 ### How to execute the tests
 > mvn clean test
 
-### Change testing choices
-In order to change testing configuration, should:
-> Edit file main > resources > choices.conf
->
-> APP_ENV: valid choices are: "app.env.develop", "app.env.staging"
->
-> HOST: valid choices are: "host.localhost", "host.docker.selenium.grid"
->
-> BROWSER: valid choices are: "chrome"
->
-> HEADLESS: browser run mode. Valid choices are: "true", "false"
+### Postman collection
 
-### Execute tests locally
+Postman collection is located under postman folder. The json file can be imported in the postman where the GET/POST requests can be executed.
 
-Firstly edit file main > resources > choices.conf and set:
-> HOST="host.localhost"
-
-and secondly run the following command:
-> mvn clean test
-
-### About Docker container and Docker selenium grid
-
-First should [Docker](https://docs.docker.com/desktop/) software to be installed.
-
-Then edit file main > resources > choices.conf and set:
-> HOST="host.docker.selenium.grid"
-
-Go to the project folder and run the following command:
-
-> docker-compose -f docker-compose-v3.yml up
-
-and then run the following command:
-> mvn clean test
-
-### About Docker Jenkins
-
-From the previous sector Docker should be available and the following command to be executed:
-
-> docker-compose -f docker-compose-v3.yml up
-
-After follow the nice [tutorial](https://www.section.io/engineering-education/building-a-java-application-with-jenkins-in-docker/) for Jenkins Maven configuration.
+### JMeter
