@@ -12,10 +12,10 @@ The following requirements should be met:
 * [x] Write automation script for POST Request using Rest Assured.
 * [x] Generate console logs using Log4j.
 * [x] Validate the Response.
-* [ ] Check the above web services performance using JMeter.
-* [ ] Do Load Testing.
-* [ ] Do Stress Testing..
-* [ ] Do Spike Testing.
+* [x] Check the above web services performance using JMeter.
+* [x] Do Load Testing.
+* [x] Do Stress Testing..
+* [x] Do Spike Testing.
 
 ## Introduction
 
